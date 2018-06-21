@@ -36,7 +36,6 @@ class SearchMovie extends React.Component{
     } 
 
     render(){
-        console.log(this.state.itemList);
 
         return(
             <div>
