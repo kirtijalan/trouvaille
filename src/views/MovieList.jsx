@@ -3,7 +3,6 @@ import React from 'react';
 export default class MovieList extends React.Component{
     render(){
         let { list = [] } = this.props;
-        console.log(list);
         let movieListDisplay = list ? list.map((listItem) => {
             return(
                 <div>
